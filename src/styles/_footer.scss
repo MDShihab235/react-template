@@ -1,0 +1,34 @@
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #212731;
+  padding: 50px 0;
+  .contact > h4,
+  .category > h4 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px 0;
+  }
+  .contact > ul,
+  .category > ul {
+    list-style: none;
+    color: #b6bdc4;
+    font-size: 14px;
+  }
+  .contact > ul > li,
+  .category > ul > li {
+    padding: 10px 0;
+  }
+  .countries {
+    display: flex;
+    align-items: center;
+    color: #d1d6da;
+    font-size: 16px;
+    > img {
+      width: 20px;
+      height: 20px;
+      margin-left: 5px;
+    }
+  }
+}

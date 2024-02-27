@@ -1,0 +1,80 @@
+.header {
+  margin: auto;
+  max-width: 1024px;
+  > h1 {
+    font-size: 48px;
+    line-height: 60px;
+    color: #2c384a;
+    font-weight: 400;
+    border-bottom: 1px solid gray;
+    padding-bottom: 16px;
+  }
+  .header-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 14px;
+    color: #4b5665;
+    .info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      > div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 20px;
+      }
+      > div > img {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        opacity: 60%;
+      }
+    }
+    .top-relevant {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      > img {
+        width: 20px;
+        height: 20px;
+        opacity: 60%;
+      }
+      > p {
+        margin-right: 10px;
+      }
+    }
+  }
+  .tools {
+    > ul {
+      list-style: none;
+      display: flex;
+      margin-top: 20px;
+      color: #4b5665;
+    }
+    > ul > li {
+      height: 36px;
+      margin: 15px;
+      padding: 8px;
+      background-color: white;
+      border-radius: 16px;
+      cursor: pointer;
+      font-weight: 400;
+    }
+  }
+  .hosting {
+    display: flex;
+    align-items: flex-start;
+    color: #4b5665;
+    .greater-than {
+      font-weight: 700;
+    }
+  }
+  .hosting > p:first-child {
+    margin-right: 15px;
+  }
+  .hosting > p:not(:first-child) {
+    margin: 0 15px 0 15px;
+  }
+}

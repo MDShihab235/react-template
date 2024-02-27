@@ -1,0 +1,80 @@
+.cards-section {
+  width: 1024px;
+  margin: auto;
+  > h2 {
+    font-size: 32px;
+    margin: 50px 0 26px 0;
+    font-weight: 400;
+    color: #2c384a;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .service-card {
+      width: 333px;
+      height: 425px;
+      background-color: #ffffff;
+      text-align: center;
+      padding: 15px;
+      border-radius: 12px;
+      > p {
+        text-align: left;
+        color: #626e79;
+      }
+      > img {
+        width: 141px;
+        height: 103px;
+        margin: 20px 20px 40px 20px;
+      }
+      > div {
+        display: flex;
+      }
+      > div > p {
+        margin-right: 10px;
+        padding: 10px;
+      }
+      > div .off {
+        color: #074786;
+        background-color: #f2f4f7;
+        border-radius: 8px;
+      }
+      > h3 {
+        font-size: 16px;
+        font-weight: 700;
+        color: #626e79;
+        margin: 14px;
+      }
+
+      .price {
+        > p:first-child {
+          font-size: 20px;
+          font-weight: 400;
+          color: #5c6874;
+        }
+        > p:nth-child(2) {
+          font-size: 14px;
+          font-weight: 400;
+          color: #9fa9b3;
+        }
+        > p:nth-child(3) {
+          font-size: 13px;
+          font-weight: 400;
+          color: #ef4c5d;
+        }
+      }
+
+      > button {
+        width: 292px;
+        height: 48px;
+        background-color: #1b88f4;
+        border: none;
+        outline: none;
+        border-radius: 12px;
+        color: #fff;
+        font-size: 16px;
+      }
+    }
+  }
+}
